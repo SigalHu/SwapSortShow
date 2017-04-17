@@ -1,2 +1,2 @@
-mainbkPath:e:\Code\xcUI\1.9.6\vs2005\SortShow_160402\debug\image\mainbk1.png
-mainbkTrans:218
+mainbkPath:E:\Code\xcUI\1.9.6\vs2005\SwapSortShow\release\image\mainbk1.png
+mainbkTrans:239

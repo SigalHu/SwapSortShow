@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<xc_template_listView showT="true">
+    <listView_Group showT="true" itemID="1">
+        <layoutObject layout.horizon="true" layout.alignH="center" layout.alignV="center" layout.width="fill" layout.height="30" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText layout.width="auto" layout.height="fill" content="更多颜色..." showT="true" itemID="1" />
+        </layoutObject>
+    </listView_Group>
+    <listView_item showT="true">
+        <layoutObject layout.horizon="false" layout.alignH="center" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="0" layout.padding="2,2,2,2" showT="true">
+            <shapePicture itemID="0" image="{binding field=name source=data bSync=false}" layout.width="fill" layout.height="fill" showT="true" />
+        </layoutObject>
+    </listView_item>
+</xc_template_listView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="CloseWIND" value=".\image\close.png" loadType="file" style="default" />
+        <image name="MinWIND" value=".\image\minimize_window.png" loadType="file" style="default" />
+        <image name="SelectSkin" value=".\image\sellectSkin.png" loadType="file" style="default" />
+    </type_image>
+    <type_id />
+    <type_font>
+        <font name="BtnFont10" value="宋体" size="10" style="bold" />
+        <font name="BtnFont11" value="宋体" size="11" style="bold" />
+        <font name="DefaultFont" value="宋体" size="12" style="bold" />
+        <font name="GroupFont13" value="宋体" size="13" style="bold" />
+        <font name="TitleFont" value="宋体" size="14" style="bold" />
+		<font name="RETFont" value="宋体" size="40" style="bold" />
+		<font name="SETFont" value="宋体" size="25" style="bold" />
+    </type_font>
+    <type_string />
+    <type_color />
+</resources>

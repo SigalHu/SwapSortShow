@@ -1,0 +1,2 @@
+mainbkPath:e:\Code\xcUI\1.9.6\vs2005\SortShow_160402\debug\image\mainbk1.png
+mainbkTrans:218

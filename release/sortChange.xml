@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="auto" layout.height="fill" layout.space="0" layout.padding="0,0,0,0" widthT="100" heightT="50" showT="true">
+        <shapeText itemID="1" layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" textAlign="DT_CENTER | DT_VCENTER | " showT="true" />
+    </layoutObject>
+</xc_template_listBox>

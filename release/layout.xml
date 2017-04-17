@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="0" top="0" width="800" height="600" layoutLeft="3" layoutTop="30" layoutRight="3" layoutBottom="3" center="true" dragBorder="false" dragWindow="true" showT="true">
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.padding="3,0,3,0" layout.flag="window_position_top" showT="true">
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="bottom" layout.horizon="true" showT="true">
+            <shapeText left="90" top="10" layout.width="auto" layout.height="25" content="互换排序演示" font="@TitleFont" textColor="#FF800000" showT="true" />
+        </layoutObject>
+        <layoutObject layout.width="100" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="1" showT="true">
+            <buttonUI left="775" top="16" width="30" height="30" id="3" toolTip="换肤" buttonStyle="button" drawFocus="false" transparent="true" enableToolTip="true" imageIcon="@SelectSkin" showT="true" />
+            <buttonUI left="722" top="7" width="30" height="30" id="2" toolTip="最小化" buttonType="min" drawFocus="false" transparent="true" enableToolTip="true" imageIcon="@MinWIND" showT="true" />
+            <buttonUI left="728" top="26" width="30" height="30" id="1" toolTip="关闭" buttonType="close" drawFocus="false" transparent="true" enableToolTip="true" imageIcon="@CloseWIND" showT="true" />
+        </layoutObject>
+    </layoutObject>
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" layout.flag="window_position_body" showT="true">
+        <elementUI left="262" top="255" width="100" height="100" layout.width="fill" layout.height="fill" id="4" alpha="50" enableFocus="false" mouseThrough="true" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="2,2,2,2" showT="true">
+                <layoutObject layout.width="fill" layout.height="100" layout.alignH="left" layout.alignV="bottom" layout.horizon="true" layout.padding="20,0,0,20" showT="true" layout.space="170">
+                    <comboBoxUI left="76" top="51" width="150" height="30" transparent="true" showT="true" id="5" font="@DefaultFont" padding.top="2" padding.left="5" drawFocus="false" />
+                    <elementUI left="353" top="52" width="100" height="100" enableFocus="false" transparent="true" mouseThrough="true" layout.width="150" layout.height="70" showT="true">
+                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="bottom" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                            <shapeText left="34" top="57" layout.width="auto" layout.height="auto" id="16" font="@SETFont" showT="true" />
+                        </layoutObject>
+                    </elementUI>
+                </layoutObject>
+                <layoutObject layout.width="fill" layout.height="200" layout.alignH="equidistant" layout.alignV="center" layout.horizon="true" showT="true">
+                    <richEditUI left="114" top="144" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="6" font="@RETFont" transparent="true" drawFocus="false" padding.top="5" padding.left="10" />
+                    <richEditUI left="204" top="142" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="7" font="@RETFont" transparent="true" drawFocus="false" padding.left="10" padding.top="5" />
+                    <richEditUI left="223" top="183" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="8" transparent="true" drawFocus="false" font="@RETFont" padding.left="10" padding.top="5" />
+                    <richEditUI left="349" top="126" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="9" transparent="true" drawFocus="false" font="@RETFont" padding.left="10" padding.top="5" />
+                    <richEditUI left="384" top="191" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="10" transparent="true" drawFocus="false" font="@RETFont" padding.left="10" padding.top="5" />
+                    <richEditUI left="485" top="164" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="11" transparent="true" drawFocus="false" font="@RETFont" padding.left="10" padding.top="5" />
+                    <richEditUI left="494" top="166" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="12" transparent="true" drawFocus="false" font="@RETFont" padding.left="10" padding.top="5" />
+                    <richEditUI left="538" top="177" width="100" height="20" layout.width="90" layout.height="80" showT="true" id="13" transparent="true" drawFocus="false" font="@RETFont" padding.left="10" padding.top="5" />
+                </layoutObject>
+                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="20" layout.padding="0,20,0,0" showT="true">
+                    <buttonUI left="576" top="354" width="100" height="50" content="产生随机数" transparent="true" font="@BtnFont10" showT="true" id="14" drawFocus="false" />
+                    <buttonUI left="606" top="350" width="100" height="50" content="清除数据" transparent="true" font="@BtnFont10" showT="true" id="17" drawFocus="false" />
+                    <buttonUI left="606" top="350" width="100" height="50" content="开始排序" transparent="true" font="@BtnFont10" showT="true" id="15" drawFocus="false" />
+                </layoutObject>
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+</windowUI>
